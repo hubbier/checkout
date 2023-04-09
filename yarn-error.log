@@ -1,0 +1,62 @@
+Arguments: 
+  /home/patrick/.nvm/versions/node/v16.19.0/bin/node /home/patrick/.yarn/bin/yarn.js install
+
+PATH: 
+  /home/patrick/.local/bin:/home/patrick/.yarn/bin:/home/patrick/.config/yarn/global/node_modules/.bin:/home/patrick/.nvm/versions/node/v16.19.0/bin:/home/patrick/.rbenv/plugins/ruby-build/bin:/home/patrick/.rbenv/shims:/home/patrick/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Users/Patrick/AppData/Local/Programs/Python/Python310:/mnt/c/Users/Patrick/AppData/Local/Programs/Python/Python310/Scripts:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/Patrick/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Calibre2/:/mnt/c/Users/Patrick/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EINVAL: invalid argument, lstat '/mnt/c/dev/checkout-svelte/node_modules/@esbuild/linux-x64'
+
+npm manifest: 
+  {
+  	"name": "checkout-svelte",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"test": "playwright test",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+  		"test:unit": "vitest",
+  		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+  		"format": "prettier --plugin-search-dir . --write ."
+  	},
+  	"devDependencies": {
+  		"@playwright/test": "^1.28.1",
+  		"@sveltejs/adapter-auto": "^2.0.0",
+  		"@sveltejs/kit": "^1.5.0",
+  		"@tsconfig/svelte": "^3.0.0",
+  		"@typescript-eslint/eslint-plugin": "^5.45.0",
+  		"@typescript-eslint/parser": "^5.45.0",
+  		"eslint": "^8.28.0",
+  		"eslint-config-prettier": "^8.5.0",
+  		"eslint-plugin-svelte3": "^4.0.0",
+  		"prettier": "^2.8.0",
+  		"prettier-plugin-svelte": "^2.8.1",
+  		"svelte": "^3.54.0",
+  		"svelte-check": "^3.1.4",
+  		"svelte-preprocess": "^5.0.2",
+  		"tslib": "^2.4.1",
+  		"typescript": "^4.9.5",
+  		"vite": "^4.0.0",
+  		"vitest": "^0.25.3"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
